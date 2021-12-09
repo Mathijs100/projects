@@ -1,0 +1,121 @@
+* {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+
+
+}
+
+body {
+  background-image: url("../images/Naamloos69.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navbar {
+  background: #038a96;
+
+}
+
+.navbar:after  {
+  content: '' ;
+  clear: both;
+  display: table;
+
+}
+
+.navbar .logo {
+  float: left;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-left: 60px;
+
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.navbar ul {
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+
+
+
+}
+
+.navbar ul li{
+  float: left;
+  display: inline-block;
+  background: #038a96;
+  margin: 0 5px;
+
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px, 15px;
+
+}
+
+.navbar ul li a:hover{
+  box-shadow: 0 0 5px #33ffff,
+              0 0 5px #66ffff;
+  border-radius: 5px;
+  color: cyan;
+
+
+}
+
+.navbar ul ul {
+  position: absolute;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top, .3s;
+
+}
+
+.navbar ul li:hover > ul{
+  opacity: 1;
+  visibility: visible;
+
+}
+
+.navbar ul ul li {
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid cyan;
+  padding: 3px;
+
+}
+
+.navbar ul ul li a:hover{
+  color: cyan;
+  box-shadow: none;
+
+.navbar ul ul ul li {
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+
+.snorkelen {
+
+}
